@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Req.001 Escolher Açai",
+  "type": "object",
+  "properties": {
+    "tamanho": {
+      "description": "Tamanho do Açaí escolhido",
+      "type": "string"
+    },
+    "sabor":{
+      "description": "Sabor da fruta escolhida para bater o açaí",
+      "type": "string"
+    },
+    "valorTotal": {
+      "description": "Valor do Açaí Escolhido",
+      "type": "number"
+    }
+
+  },
+  "required": ["tamanho","sabor","valorTotal"]
+}

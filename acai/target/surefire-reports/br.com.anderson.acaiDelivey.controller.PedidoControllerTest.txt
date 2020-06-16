@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.anderson.acaiDelivey.controller.PedidoControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.783 s - in br.com.anderson.acaiDelivey.controller.PedidoControllerTest
