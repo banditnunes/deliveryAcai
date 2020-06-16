@@ -82,7 +82,8 @@ public class PedidoService {
     }
 
     private void atualizarComplementosPedido(Pedido pedido, Complemento complementoRetornado) {
-        if (!pedido.getComplementos().contains(complementoRetornado)) {
+        if (pedido!=null && complementoRetornado!=null && complementoRetornado.getDescricao()!=null && !pedido.getComplementos().contains(complementoRetornado)) {
+
             pedido.setValorTotal(pedido.getValorTotal() + complementoRetornado.getValor());
             pedido.setTempoPreparo(pedido.getTempoPreparo() + complementoRetornado.getTempoAdicional());
             pedido.getComplementos().add(complementoRetornado);

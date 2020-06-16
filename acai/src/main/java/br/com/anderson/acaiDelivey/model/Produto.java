@@ -10,7 +10,6 @@ import java.util.Objects;
 @Entity(name = "produto")
 public class Produto implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String tamanho;
     private Double valor;

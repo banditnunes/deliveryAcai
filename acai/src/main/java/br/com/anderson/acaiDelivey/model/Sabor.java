@@ -10,7 +10,6 @@ import java.util.Objects;
 @Entity(name = "sabor")
 public class Sabor  implements Serializable{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String descricao;
     private Long tempoAdicional;

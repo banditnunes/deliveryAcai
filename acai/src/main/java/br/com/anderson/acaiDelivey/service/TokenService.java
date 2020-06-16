@@ -36,7 +36,11 @@ public class TokenService {
 
     public boolean isTokenValido(String token) {
         try {
-        Jwts.parser().setSigningKey(this.secret).parseClaimsJws(token);
+         // if(token!=null){
+            Jwts.parser().setSigningKey(this.secret).parseClaimsJws(token);
+          //}else{
+           //   return false;
+          //}
         return true;
         }catch (Exception e){
             e.printStackTrace();
